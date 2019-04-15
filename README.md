@@ -20,3 +20,6 @@ Content-Type -- application/json
 }
 
 status 401: The request has not been applied because it lacks valid authentication credentials for the target resource.
+
+ng new authapp --routing
+ng serve -o // open the app in browser right away
