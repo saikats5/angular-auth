@@ -23,3 +23,8 @@ status 401: The request has not been applied because it lacks valid authenticati
 
 ng new authapp --routing
 ng serve -o // open the app in browser right away
+
+JSON Web Tokens(JWT)
+Safe way to represent a set of information between two parties
+
+Format --> header.payload.signature - xxxxx.yyyyy.zzzzz
