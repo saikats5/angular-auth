@@ -33,3 +33,8 @@ payload --> data stored inside jwt(i.e., userid)
 signature --> verify the token
 
 https://jwt.io/
+jsonwebtoken npm package
+to generate new token jwt.sign(payload, secretOrPrivateKey, [options, callback]) --> response to frontend same token will be send to server with verified token jwt.verify(token, secretOrPrivateKey, [options, callback]) to verify in the backend
+
+npm install jsonwebtoken
+const jwt = require('jsonwebtoken');
