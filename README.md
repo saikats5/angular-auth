@@ -38,3 +38,7 @@ to generate new token jwt.sign(payload, secretOrPrivateKey, [options, callback])
 
 npm install jsonwebtoken
 const jwt = require('jsonwebtoken');
+
+RouteGuard in angular --> ng g guard auth
+
+HttpInterceptor transform them and send it to the server -- token interceptor -- ng g s token-interceptor
