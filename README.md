@@ -26,5 +26,10 @@ ng serve -o // open the app in browser right away
 
 JSON Web Tokens(JWT)
 Safe way to represent a set of information between two parties
-
+string with following format
 Format --> header.payload.signature - xxxxx.yyyyy.zzzzz
+header --> type of token(JWT) and hashing algorithm
+payload --> data stored inside jwt(i.e., userid)
+signature --> verify the token
+
+https://jwt.io/
